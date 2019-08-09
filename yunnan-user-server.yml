@@ -2,8 +2,6 @@ server:
   port: 8762
 
 spring:
-  application:
-    name: yunnan-user-server
   datasource:
     driver-class-name: com.mysql.jdbc.Driver
     url: jdbc:mysql://127.0.0.1:3306/yunnan-prison?useUnicode=true&characterEncoding=utf8&allowMultiQueries=true&&useSSL=false&autoReconnect=true
