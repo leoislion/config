@@ -7,6 +7,9 @@ spring:
     url: jdbc:mysql://127.0.0.1:3306/yunnan-prison?useUnicode=true&characterEncoding=utf8&allowMultiQueries=true&&useSSL=false&autoReconnect=true
     username: root
     password: 123456
+  redis:
+    host: 127.0.0.1
+    port: 6379
 eureka:
   client:
     serviceUrl:
