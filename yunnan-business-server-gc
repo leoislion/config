@@ -1,0 +1,25 @@
+server:
+  port: 8765
+
+spring:
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://127.0.0.1:3306/yunan-business?useUnicode=true&characterEncoding=utf8&allowMultiQueries=true&&useSSL=false&autoReconnect=true
+    username: root
+    password: 123456@
+    
+mybatis:
+  mapper-locations: classpath:mapper/**/*.xml
+  type-aliases-package:  com.isoftstone.prison.yunnanuserserver.mapper
+  configuration:
+    map-underscore-to-camel-case: true  
+    
+jasypt:
+  encryptor:
+    password: yunnan
+    
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/
