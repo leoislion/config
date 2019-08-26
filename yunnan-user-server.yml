@@ -5,8 +5,8 @@ spring:
   datasource:
     driver-class-name: com.mysql.jdbc.Driver
     url: jdbc:mysql://10.64.91.200:3306/yunnan-prison?useUnicode=true&characterEncoding=utf8&allowMultiQueries=true&&useSSL=false&autoReconnect=true
-    username: yunnan
-    password: ENC(a8xlCFmwhH2PNSCafurBc6N/RxJcYm0C)
+    username: root
+    password: 123456
   redis:
     host: 10.64.91.200
     port: 6379
@@ -21,8 +21,8 @@ mybatis:
   configuration:
     map-underscore-to-camel-case: true
     
-jasypt:
-  encryptor:
-    password: yunnan    
+# jasypt:
+#   encryptor:
+#     password: yunnan    
 
 
