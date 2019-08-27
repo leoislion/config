@@ -4,11 +4,11 @@ server:
 spring:
   datasource:
     driver-class-name: com.mysql.jdbc.Driver
-    url: jdbc:mysql://10.64.91.200:3306/yunnan-prison?useUnicode=true&characterEncoding=utf8&allowMultiQueries=true&&useSSL=false&autoReconnect=true
-    username: root
-    password: 123456
+    url: jdbc:mysql://111.231.199.4:3306/yunnan_prison?useUnicode=true&characterEncoding=utf8&allowMultiQueries=true&&useSSL=false&autoReconnect=true
+    username: rhkj
+    password: a112358
   redis:
-    host: 10.64.91.200
+    host: 127.0.0.1
     port: 6379
 eureka:
   client:
