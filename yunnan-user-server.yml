@@ -8,7 +8,7 @@ spring:
     username: rhkj
     password: a112358
   redis:
-    host: 127.0.0.1
+    host: 111.231.199.4
     port: 6379
 eureka:
   client:
